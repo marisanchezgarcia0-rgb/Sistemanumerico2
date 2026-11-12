@@ -1,0 +1,33 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos de entorno y credenciales (Seguridad estricta)
+.env
+.env.*
+!.env.example
+*.ven.txt
+.ven.txt
+.env.txt
+.streamlit/secrets.toml
+
+# Python cache y compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE y editores
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Archivos temporales de eliminación
+_to_delete/
